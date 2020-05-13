@@ -6069,7 +6069,6 @@ var UnityLoader = UnityLoader || {
     };
   })(),
   compatibilityCheck: function (e, t, r) {
-    UnityLoader.SystemInfo.hasWebGL;
     t();
   },
   buildCompatibilityCheck: function (e, t, r) {
