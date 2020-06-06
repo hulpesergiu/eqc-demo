@@ -1,0 +1,71 @@
+{
+  "materialAllocators": [
+    {
+      "name": "carpaint",
+      "mapping": "carpaint_red.json"
+    },
+    {
+      "name": "plasticGlossy",
+      "mapping": "M_Plastic_Black_HighGloss.json"
+    },
+    {
+      "name": "plastic_black",
+      "mapping": "M_Plastic_Black_Matte.json"
+    },
+    {
+      "name": "Material",
+      "mapping": "M_ShadowPlane.json"
+    },
+    {
+      "name": "glass_clear",
+      "mapping": "M_Glass.json"
+    },
+    {
+      "name": "ENV_Showroom_Emissive",
+      "mapping": "Env_Showroom_Emissive.json"
+    },
+    {
+      "name": "ENV_Showroom_Floor",
+      "mapping": "Env_Floor.json"
+    },
+    {
+      "name": "ENV_Showroom_Walls",
+      "mapping": "Env_Walls.json"
+    },
+    {
+      "name": "ENV_Showroom_Walls_Secondary",
+      "mapping": "Env_Walls_Secondary.json"
+    }
+  ],
+  "switchMaterials": [
+    {
+      "name": "carpaint",
+      "slots": [
+        {
+          "name": "carpaint__polarWhite",
+          "mapping": "carpaint_polarWhite.json"
+        },
+        {
+          "name": "carpaint__black",
+          "mapping": "carpaint_black.json"
+        },
+        {
+          "name": "carpaint__brilliantBlue",
+          "mapping": "carpaint_brilliantBlue.json"
+        },
+        {
+          "name": "carpaint__cavansiteBlue",
+          "mapping": "carpaint_cavansiteBlue.json"
+        },
+        {
+          "name": "carpaint__red",
+          "mapping": "carpaint_red.json"
+        },
+        {
+          "name": "carpaint__gray",
+          "mapping": "carpaint_gray.json"
+        }
+      ]
+    }
+  ]
+}

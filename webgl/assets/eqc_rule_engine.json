@@ -1,0 +1,47 @@
+{
+  "defaultConfigurationCodes": ["R37", "996U"],
+  "nonConfigurableLayers": [
+    "EQC_Body",
+    "EQC_Wheels",
+    "InterestPoints",
+    "ENV_EQC_Showroom"
+  ],
+  "configurableLayers": ["EQC_Rims01", "EQC_Rims02"],
+  "properties": [
+    {
+      "code": "R37",
+      "layerNames": "EQC_Rims01"
+    },
+    {
+      "code": "R90",
+      "layerNames": "EQC_Rims02"
+    },
+    {
+      "code": "197U",
+      "materialSchemes": [
+        {
+          "switchMaterialName": "carpaint",
+          "switchMaterialSlot": "carpaint_black.json"
+        }
+      ]
+    },
+    {
+      "code": "859U",
+      "materialSchemes": [
+        {
+          "switchMaterialName": "carpaint",
+          "switchMaterialSlot": "carpaint_silver.json"
+        }
+      ]
+    },
+    {
+      "code": "996U",
+      "materialSchemes": [
+        {
+          "switchMaterialName": "carpaint",
+          "switchMaterialSlot": "carpaint_red.json"
+        }
+      ]
+    }
+  ]
+}
